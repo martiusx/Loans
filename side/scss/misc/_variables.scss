@@ -1,0 +1,24 @@
+//grid
+
+$columns: 12;
+$containerWidth: 1024px;
+$gutter: 15px;
+
+$gridRWD: (
+  xs: 575px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  hd: 1600px,
+);
+
+$BreakPointsType: ("xs", "sm", "md", "lg", "xl", "hd");
+$BreakPoints: list.length($BreakPointsType);
+$gridRWDList: map.values($gridRWD);
+
+//colors
+
+$primaryColor: rgb(1, 36, 186);
+$accent-color: rgb(9, 216, 98);
+$text-color: rgb(53, 53, 53);
