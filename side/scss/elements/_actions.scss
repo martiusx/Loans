@@ -3,6 +3,10 @@
   margin-bottom: 5rem;
   padding: 2rem 1rem;
 
+  @media screen and(min-width:768px) {
+    margin-top: 0;
+  }
+
   .actions__title {
     font-size: 3rem;
     text-align: center;
