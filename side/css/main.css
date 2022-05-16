@@ -735,4 +735,47 @@ input#menu:checked ~ div .nav__mobile--active {
 .nav__mobile--active ul li {
   margin-top: 1rem;
 }
+
+.actions {
+  margin-top: 13rem;
+  margin-bottom: 5rem;
+  padding: 2rem 1rem;
+}
+.actions .actions__title {
+  font-size: 3rem;
+  text-align: center;
+  color: rgb(1, 36, 186);
+}
+@media screen and (min-width: 768px) {
+  .actions .actions__title {
+    text-align: left;
+  }
+}
+.actions .actions__plans {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .actions .actions__plans {
+    display: flex;
+  }
+}
+.actions .actions__plans i {
+  color: rgb(9, 216, 98);
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+@media screen and (min-width: 768px) {
+  .actions .actions__plans ul {
+    padding-left: 4rem;
+  }
+}
+.actions .actions__plans ul:first-child {
+  padding-left: 0;
+}
+@media screen and (min-width: 768px) {
+  .actions .actions__plans ul li {
+    font-size: 1rem;
+  }
+}
 /*# sourceMappingURL=main.css.map */

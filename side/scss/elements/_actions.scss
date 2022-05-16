@@ -1,0 +1,39 @@
+.actions {
+  margin-top: 13rem;
+  margin-bottom: 5rem;
+  padding: 2rem 1rem;
+
+  .actions__title {
+    font-size: 3rem;
+    text-align: center;
+    color: $primaryColor;
+    @media screen and(min-width:768px) {
+      text-align: left;
+    }
+  }
+  .actions__plans {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    @media screen and(min-width:768px) {
+      display: flex;
+    }
+    i {
+      color: $accent-color;
+      font-size: 2rem;
+      margin: 1rem 0;
+    }
+    ul {
+      @media screen and(min-width:768px) {
+        padding-left: 4rem;
+      }
+      &:first-child {
+        padding-left: 0;
+      }
+      li {
+        @media screen and(min-width:768px) {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
