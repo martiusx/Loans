@@ -10,29 +10,49 @@
       src="https://kit.fontawesome.com/dc643cc88b.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
 
-  <body>
-    <div class="container">
+  <body class="is-middle column">
+    <input type="checkbox" name="menu" id="menu" class="is-hidden" />
+    <div class="container navigation">
       <div class="row">
         <div class="col-12">
           <nav>
             <div class="nav__logo">Loans.com</div>
             <div class="nav__menu">
               <ul>
-                <li>Rates & Fees</li>
-                <li>How to apply</li>
-                <li>Questions?</li>
+                <li><a href=""> Rates & Fees</a></li>
+                <li><a href="">How to apply</a></li>
+                <li><a href="">Questions?</a></li>
               </ul>
             </div>
+
+            <label for="menu" class="menu__burger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
           </nav>
+        </div>
+        <div class="nav__mobile--active">
+          <ul>
+            <li><a href=""> Rates & Fees</a></li>
+            <li><a href="">How to apply</a></li>
+            <li><a href="">Questions?</a></li>
+          </ul>
         </div>
       </div>
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-xl-6">
+        <div class="col-md-6">
           <main>
             <div class="main__title">Put your plans into actions</div>
             <div class="main__actions">
@@ -51,7 +71,7 @@
             </div>
           </main>
         </div>
-        <div class="col-xl-6">
+        <div class="col-md-6">
           <form>
             <div class="form__title">Let's change your life?</div>
             Full name <br />
