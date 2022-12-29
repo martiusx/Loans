@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/dc643cc88b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+
+  <body class="is-middle column">
+    <input type="checkbox" name="menu" id="menu" class="is-hidden" />
+    <div class="container navigation">
+      <div class="row">
+        <div class="col-12">
+          <nav>
+            <div class="nav__logo">Loans.com</div>
+            <div class="nav__menu">
+              <ul>
+                <li><a href=""> Rates & Fees</a></li>
+                <li><a href="">How to apply</a></li>
+                <li><a href="">Questions?</a></li>
+              </ul>
+            </div>
+
+            <label for="menu" class="menu__burger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+          </nav>
+        </div>
+        <div class="nav__mobile--active">
+          <ul>
+            <li><a href=""> Rates & Fees</a></li>
+            <li><a href="">How to apply</a></li>
+            <li><a href="">Questions?</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 is-middle actions">
+          <main class="is-middle column">
+            <div class="actions__title">Put your plans into actions</div>
+            <div class="actions__plans ">
+              <ul>
+                <li><i class="fas fa-solid fa-cloud"></i></li>
+                <li>Online application</li>
+              </ul>
+              <ul>
+                <li><i class="fas fa-duotone fa-money-bill"></i></li>
+                <li>Up to $50.000</li>
+              </ul>
+              <ul>
+                <li><i class="fas fa-solid fa-stopwatch-20"></i></li>
+                <li>The money is yours in 48h</li>
+              </ul>
+            </div>
+        </div>
+        <div class="col-md-6 is-middle">
+          <form>
+            <div class="form__title">Let's change your life?</div>
+            Full name <br />
+            <input type="text" id="name" /><br />
+            E-mail <br />
+            <input type="e-mail" id="email" /><br />
+            How much do you need? <br />
+            <input type="number" id="number" /> <br />
+
+            <input type="submit" class="button" value="Check your rates" />
+          </form>
+        </div>
+      </main>
+      </div>
+    </div>
+  </body>
+</html>

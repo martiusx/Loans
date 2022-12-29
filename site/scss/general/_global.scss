@@ -1,0 +1,27 @@
+body {
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-image: url("/side/assets/4907157.jpg");
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.is-middle {
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.is-hidden {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
